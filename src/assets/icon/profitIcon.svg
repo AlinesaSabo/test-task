@@ -1,0 +1,35 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject x="-5" y="-5" width="90" height="89.791">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(2.5px);clip-path:url(#bgblur_0_14032_2707_clip_path);height:100%;width:100%"></div>
+  </foreignObject>
+  <g data-figma-bg-blur-radius="5">
+    <path d="M0.5 39.8954C0.5 18.1396 18.2408 0.5 40 0.5C61.7592 0.5 79.5 18.1396 79.5 39.8954C79.5 61.6512 61.7592 79.2908 40 79.2908C18.2408 79.2908 0.5 61.6512 0.5 39.8954Z" fill="url(#paint0_radial_14032_2707)" />
+    <path d="M0.5 39.8954C0.5 18.1396 18.2408 0.5 40 0.5C61.7592 0.5 79.5 18.1396 79.5 39.8954C79.5 61.6512 61.7592 79.2908 40 79.2908C18.2408 79.2908 0.5 61.6512 0.5 39.8954Z" stroke="url(#paint1_radial_14032_2707)" />
+    <path d="M0.5 39.8954C0.5 18.1396 18.2408 0.5 40 0.5C61.7592 0.5 79.5 18.1396 79.5 39.8954C79.5 61.6512 61.7592 79.2908 40 79.2908C18.2408 79.2908 0.5 61.6512 0.5 39.8954Z" stroke="url(#paint2_radial_14032_2707)" />
+    <path d="M0.5 39.8954C0.5 18.1396 18.2408 0.5 40 0.5C61.7592 0.5 79.5 18.1396 79.5 39.8954C79.5 61.6512 61.7592 79.2908 40 79.2908C18.2408 79.2908 0.5 61.6512 0.5 39.8954Z" stroke="url(#paint3_radial_14032_2707)" />
+  </g>
+  <path d="M38.625 40.1169V19.8125C38.625 19.295 38.205 18.875 37.6875 18.875C26.8312 18.875 18 28.5481 18 40.4374C18 52.3267 27.6731 61.9999 39.5624 61.9999C44.8818 61.9999 47.7599 61.0362 51.4087 58.0362C51.8006 57.7137 51.8643 57.138 51.5531 56.7368L38.625 40.1169ZM39.5624 60.125C28.7062 60.125 19.875 51.2937 19.875 40.4375C19.875 29.93 27.3618 21.3182 36.7499 20.7763V40.4375C36.7499 40.6456 36.8193 40.8481 36.9487 41.0131L49.5036 57.155C46.543 59.4162 44.0737 60.125 39.5624 60.125Z" fill="white" />
+  <path d="M41.4375 39.5H62.0625C62.58 39.5 63 39.0799 63 38.5624C63 26.6731 53.3268 17 41.4375 17C40.92 17 40.5 17.42 40.5 17.9375V38.5625C40.5 39.0799 40.92 39.5 41.4375 39.5ZM42.375 18.8975C52.4869 19.3737 60.6262 27.5131 61.1024 37.6249H42.375V18.8975Z" fill="white" />
+  <path d="M62.0625 41.375H43.3126C42.9526 41.375 42.6207 41.5831 42.465 41.9094C42.3094 42.2356 42.3563 42.6219 42.5832 42.9012L54.7707 57.9893C54.9338 58.1936 55.1738 58.3174 55.4344 58.3362C55.4569 58.338 55.4776 58.338 55.5001 58.338C55.7363 58.338 55.9651 58.248 56.1395 58.0868C60.4988 54.02 63 48.2712 63 42.3125C63 41.795 62.58 41.375 62.0625 41.375ZM55.5807 56.0075L45.2757 43.2501H61.1026C60.8719 48.0163 58.8994 52.5744 55.5807 56.0075Z" fill="white" />
+  <defs>
+    <clipPath id="bgblur_0_14032_2707_clip_path" transform="translate(5 5)">
+      <path d="M0.5 39.8954C0.5 18.1396 18.2408 0.5 40 0.5C61.7592 0.5 79.5 18.1396 79.5 39.8954C79.5 61.6512 61.7592 79.2908 40 79.2908C18.2408 79.2908 0.5 61.6512 0.5 39.8954Z" />
+    </clipPath>
+    <radialGradient id="paint0_radial_14032_2707" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6.69204) rotate(47.9449) scale(119.431 86.7751)">
+      <stop stop-color="white" stop-opacity="0.36" />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="paint1_radial_14032_2707" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-42.5965 8.1628) rotate(35.0407) scale(92.1512 54.3882)">
+      <stop stop-color="white" />
+      <stop offset="1" stop-color="white" stop-opacity="0.06" />
+    </radialGradient>
+    <radialGradient id="paint2_radial_14032_2707" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(103.421 53.4008) rotate(161.385) scale(66.8428 45.1784)">
+      <stop stop-color="#8470FF" />
+      <stop offset="1" stop-color="#865CFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="paint3_radial_14032_2707" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(40.871 -18.2359) rotate(47.2149) scale(44.643 32.0879)">
+      <stop />
+      <stop offset="1" stop-color="white" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Bitcoin Escrow Service",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus",
+    "icon": "bitcoinicon",
+    "link": "/service/bitcoin-escrow"
+  },
+  {
+    "id": 2,
+    "title": "Safe And Secure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus",
+    "icon": "safeandsecure",
+    "link": "/service/safe-secure"
+  },
+  {
+    "id": 3,
+    "title": "Integrated App",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus",
+    "icon": "integrated",
+    "link": "/service/integrated-app"
+  },
+  {
+    "id": 4,
+    "title": "Safe And Secure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus",
+    "icon": "safeandsecure",
+    "link": "/service/safe-secure-2"
+  },
+  {
+    "id": 5,
+    "title": "Safe And Secure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus",
+    "icon": "integrated",
+    "link": "/service/safe-secure-3"
+  }
+]

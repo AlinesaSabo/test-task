@@ -1,0 +1,96 @@
+.card {
+  border-radius: 25px;
+  height: 330px;
+  opacity: 1;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  padding: 40px 37px;
+}
+
+.gradientProfit {
+  background: linear-gradient(
+      135deg,
+      rgba(41, 46, 75, 0.3) 0%,
+      rgba(37, 40, 58, 0.3) 100%,
+      rgba(41, 46, 75, 0.3) 100%
+    ),
+    radial-gradient(
+      81.18% 98.69% at 113.3% 120.61%,
+      #3eeee3 0%,
+      rgba(62, 69, 238, 0) 100%
+    ),
+    radial-gradient(
+      68.34% 88.05% at 9.86% -26.12%,
+      rgba(223, 29, 255, 1) 0%,
+      rgba(72, 205, 255, 0) 100%
+    );
+}
+
+.gradientSupport {
+  backdrop-filter: blur(100px);
+  background: linear-gradient(
+      135deg,
+      rgba(41, 46, 75, 0.3) 0%,
+      rgba(37, 40, 58, 0.3) 100%,
+      rgba(41, 46, 75, 0.3) 100%
+    ),
+    radial-gradient(
+      36.2% 43.15% at 103.42% -8.18%,
+      #3eeee3 0%,
+      rgba(62, 69, 238, 0) 100%
+    ),
+    radial-gradient(
+      46.55% 56.79% at 0% 105.61%,
+      #df1dff 0%,
+      rgba(72, 205, 255, 0) 100%
+    );
+}
+
+.gradientConfirmation {
+  background: linear-gradient(
+      97.94deg,
+      rgba(41, 46, 75, 0.225) 35%,
+      rgba(37, 40, 58, 0.105) 75%,
+      rgba(41, 46, 75, 0.105) 75%
+    ),
+    radial-gradient(
+      60.52% 85.11% at 9.86% -26.12%,
+
+      rgba(62, 238, 227, 1) 0%,
+      rgba(62, 69, 238, 0) 100%
+    ),
+    radial-gradient(
+      65.97% 92.77% at 113.3% 120.61%,
+      rgba(223, 29, 255, 0.5) 0%,
+      rgba(72, 205, 255, 0) 100%
+    );
+}
+
+.descriptionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.3;
+  color: #e9eef4;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: #e8e8e8;
+}

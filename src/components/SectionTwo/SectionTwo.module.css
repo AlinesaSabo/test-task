@@ -1,0 +1,43 @@
+.sectionTwo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 115px;
+  margin-top: 200px;
+}
+
+.sectionText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  & h2 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 130%;
+  }
+  & p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+.sectionText p {
+  font-size: 1.2rem;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .sectionTwo {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .sectionText {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}

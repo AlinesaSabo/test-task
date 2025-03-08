@@ -1,0 +1,79 @@
+.header {
+  color: white;
+  padding: 26px 130px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 143px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.contactButton {
+  background-color: #6246ea;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contactButton:hover {
+  background-color: #4835c3;
+}
+
+.headerContent {
+  max-width: 700px;
+  margin: 50px auto 0;
+}
+
+.tagline {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.ctaButton {
+  background: linear-gradient(90deg, #ff4dff, #6e45e2);
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: opacity 0.3s;
+}
+
+.ctaButton:hover {
+  opacity: 0.8;
+}
+
+.icon {
+  height: 48px;
+}
