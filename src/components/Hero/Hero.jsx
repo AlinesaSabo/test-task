@@ -4,15 +4,15 @@ import Header from "../Header/Header";
 import Button from "../Button/Button";
 import CardHero from "../CardHero/CardHero";
 import GradientBackground from "../HeroBackground/GradientBackground";
-import peple1 from "../../assets/image/peple1.jpg";
-import peple2 from "../../assets/image/peple2.jpg";
-import peple3 from "../../assets/image/peple3.jpg";
-import peple4 from "../../assets/image/peple4.jpg";
-import peple5 from "../../assets/image/peple5.jpg";
-import peple6 from "../../assets/image/peple6.jpg";
+import people1 from "../../assets/image/people/people1.jpg";
+import people2 from "../../assets/image/people/people2.jpg";
+import people3 from "../../assets/image/people/people3.png";
+import people4 from "../../assets/image/people/people4.jpg";
+import people5 from "../../assets/image/people/people5.jpg";
+import people6 from "../../assets/image/people/people6.jpg";
 
 const Hero = () => {
-  const avatars = [peple1, peple2, peple3, peple4, peple5, peple6];
+  const avatars = [people1, people2, people3, people4, people5, people6];
 
   return (
     <div className={s.hero}>
