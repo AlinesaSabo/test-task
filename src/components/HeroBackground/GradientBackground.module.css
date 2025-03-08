@@ -9,12 +9,10 @@
 }
 
 .greenGlowEllipse,
-.greanGlowRestangle,
 .purpleGlow,
 .pinkGlow,
-.pinkRestangle,
-.blueGlowElipcse {
-  filter: blur(50px);
+.pinkRestangle {
+  filter: blur(30px);
   position: absolute;
 }
 
@@ -27,26 +25,11 @@
   z-index: -1;
 }
 
-.greanGlowRestangle {
-  width: 170px;
-  height: 241px;
-  top: 84px;
-  left: 138px;
-  z-index: -1;
-}
-
 .purpleGlow {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: -10;
-}
-
-.pinkGlow {
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: -10;
+  z-index: -1;
 }
 
 .pinkRestangle {
@@ -55,13 +38,5 @@
   top: 73px;
   right: -170px;
   border-radius: 100%;
-  z-index: -3;
-}
-
-.blueGlowElipcse {
-  width: 289px;
-  height: 411px;
-  top: 351px;
-  right: -50px;
-  z-index: -3;
+  z-index: -2;
 }

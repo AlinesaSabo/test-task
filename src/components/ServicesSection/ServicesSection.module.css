@@ -1,5 +1,7 @@
 .serviceSection {
-  margin-top: 200px;
+  max-width: 1180px;
+  margin: 200px auto 0;
+  padding: 0 10px;
 }
 
 .grid {

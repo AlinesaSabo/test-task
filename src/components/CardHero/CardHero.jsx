@@ -1,12 +1,22 @@
 import React from "react";
 import s from "./CardHero.module.css";
 
-const CardHero = ({ number, text, image }) => {
+const CardHero = ({ number, text, images }) => {
   return (
     <div className={s.card}>
       <h3 className={s.number}>{number}+</h3>
       <p className={s.text}>{text}</p>
-      <img src={image} alt="Users" className={s.image} />
+      <div className={s.avatarGroup}>
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt={`User ${index}`}
+            className={s.avatar}
+            style={{ transform: `rotate(15deg)` }}
+          />
+        ))}
+      </div>
     </div>
   );
 };
