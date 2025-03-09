@@ -3,7 +3,7 @@ import s from "./Hero.module.css";
 import Header from "../Header/Header";
 import Button from "../Button/Button";
 import CardHero from "../CardHero/CardHero";
-import GradientBackground from "../HeroBackground/GradientBackground";
+import GradientBackground from "../GradientBackground/GradientBackground";
 import people1 from "../../assets/image/people/people1.jpg";
 import people2 from "../../assets/image/people/people2.jpg";
 import people3 from "../../assets/image/people/people3.png";

@@ -43,8 +43,50 @@
 
 .bitcoinBG {
   position: absolute;
-  bottom: -200px;
+  bottom: -90px;
   left: 0;
   width: 600px;
   opacity: 0.8;
+}
+
+.StarL {
+  position: absolute;
+  top: 163px;
+  left: 51px;
+}
+
+.StarM {
+  position: absolute;
+  bottom: 150px;
+  right: 200px;
+}
+
+.StarxS {
+  position: absolute;
+  bottom: 200px;
+  left: 500px;
+}
+
+.StarS {
+  position: absolute;
+  top: 191px;
+  right: 101px;
+}
+
+.liteCoin {
+  position: absolute;
+  bottom: 325px;
+  right: 0;
+}
+
+.etherium {
+  position: absolute;
+  top: 70px;
+  right: 340px;
+}
+
+.monero {
+  position: absolute;
+  top: 55px;
+  left: 226px;
 }
