@@ -1,9 +1,9 @@
 import React from "react";
 import s from "./TokenSale.module.css";
 import TokenCard from "../TokenCard/TokenCard";
-import profitIcon from "/public/assets/icon/profitIcon.svg";
-import supportIcon from "/public/assets/icon/supportIcon.svg";
-import confirmationIcon from "/public/assets/icon/confirmationIcon.svg";
+import profitIcon from "../../assets/icon/profitIcon.svg";
+import supportIcon from "../../assets/icon/supportIcon.svg";
+import confirmationIcon from "../../assets/icon/confirmationIcon.svg";
 
 const TokenSale = () => {
   return (

@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Header.module.css";
 import Button from "../Button/Button";
+import Logo from "../../assets/Logo.svg";
 
 const Header = () => {
   return (
     <div className={styles.header}>
       <nav className={styles.navbar}>
         <div className={styles.logo}>
-          <img src="/public/assets/Logo.svg" className={styles.icon} />
+          <img src={Logo} className={styles.icon} />
         </div>
         <ul className={styles.navLinks}>
           <li>
