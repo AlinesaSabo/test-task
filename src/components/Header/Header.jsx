@@ -7,7 +7,7 @@ const Header = () => {
     <div className={styles.header}>
       <nav className={styles.navbar}>
         <div className={styles.logo}>
-          <img src="/src/assets/Logo.svg" className={styles.icon} />
+          <img src="/public/assets/Logo.svg" className={styles.icon} />
         </div>
         <ul className={styles.navLinks}>
           <li>

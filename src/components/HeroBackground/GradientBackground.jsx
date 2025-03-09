@@ -8,13 +8,13 @@ const GradientBackground = () => {
         <img src="/src/assets/EclipseOne.png" />
       </div>
       <div className={s.purpleGlow}>
-        <img src="/src/assets/EllipseTree.png" width="100%" height="766" />
+        <img src="/public/assets/EllipseTree.png" width="100%" height="766" />
       </div>
       <div className={s.pinkRestangle}>
-        <img src="/src/assets/EclipseTwo.png" width="603" height="690" />
+        <img src="/public/assets/EclipseTwo.png" width="603" height="690" />
       </div>
       <img
-        src="/src/assets/image/fon/Bitcoin-1.png"
+        src="/public/assets/image/fon/Bitcoin-1.png"
         alt="Bitcoin"
         className={s.bitcoinBG}
       />

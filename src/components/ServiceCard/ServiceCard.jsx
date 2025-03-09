@@ -1,8 +1,8 @@
 import React from "react";
 import s from "./ServiceCard.module.css";
-import BitcoinIcon from "../../assets/icon/bitcoinicon.svg";
-import SafeandSecure from "../../assets/icon/safeandsecure.svg";
-import Integrated from "../../assets/icon/integrated.svg";
+import BitcoinIcon from "/public/assets/icon/bitcoinicon.svg";
+import SafeandSecure from "/public/assets/icon/safeandsecure.svg";
+import Integrated from "/public/assets/icon/integrated.svg";
 
 const icons = {
   bitcoinicon: BitcoinIcon,
