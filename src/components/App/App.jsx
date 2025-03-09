@@ -5,6 +5,7 @@ import TokenSale from "../TokenSale/TokenSale";
 import SectionTwo from "../SectionTwo/SectionTwo";
 import ServicesSection from "../ServicesSection/ServicesSection";
 import Team from "../Team/Team";
+import SectionPlatium from "../SectionModule/SectionModule";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SectionTwo />
       <ServicesSection />
       <Team />
+      <SectionPlatium />
     </div>
   );
 }

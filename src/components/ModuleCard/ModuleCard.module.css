@@ -1,0 +1,30 @@
+.card {
+  background: #1a1a2e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.skills {
+  margin-top: 15px;
+}
+
+.skill {
+  background: #6a0dad;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font-size: 0.9rem;
+}

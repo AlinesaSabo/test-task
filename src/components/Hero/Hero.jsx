@@ -31,12 +31,18 @@ const Hero = () => {
         </p>
         <Button>Get Started</Button>
       </div>
-      <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
-        <CardHero number="5,000" text="lorem ipsum sit amet" images={avatars} />
+      <div className={s.cardContainer}>
+        <CardHero
+          number="5,000"
+          text="lorem ipsum sit amet"
+          images={avatars}
+          variant="pink"
+        />
         <CardHero
           number="2,000"
           text="lorem ipsum dolor sit amet"
           images={avatars}
+          variant="blue"
         />
       </div>
     </div>

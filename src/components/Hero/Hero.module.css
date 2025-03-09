@@ -56,3 +56,10 @@
     );
   z-index: -1;
 }
+
+.bitcoinBG {
+  width: 545px;
+  height: 675px;
+  z-index: -1;
+  transform: rotate(-35deg);
+}

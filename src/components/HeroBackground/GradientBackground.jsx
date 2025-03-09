@@ -13,6 +13,11 @@ const GradientBackground = () => {
       <div className={s.pinkRestangle}>
         <img src="/src/assets/EclipseTwo.png" width="603" height="690" />
       </div>
+      <img
+        src="/src/assets/image/fon/Bitcoin-1.png"
+        alt="Bitcoin"
+        className={s.bitcoinBG}
+      />
     </div>
   );
 };
