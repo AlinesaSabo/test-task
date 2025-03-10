@@ -1,14 +1,19 @@
 .sectionTwo {
+  position: relative;
+  max-width: 1440px;
+}
+
+.container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
+
   gap: 115px;
   max-width: 1180px;
   margin: 200px auto 0;
   padding: 0 10px;
 }
-
 .sectionText {
   display: flex;
   align-items: flex-start;
@@ -28,6 +33,26 @@
 
 .sectionText p {
   font-size: 1.2rem;
+}
+
+.BgGradient {
+  position: absolute;
+  bottom: -80%;
+  left: 0;
+  z-index: -1;
+}
+
+.Star1 {
+  position: absolute;
+  bottom: -10%;
+  left: 3%;
+  z-index: -1;
+}
+.Star2 {
+  position: absolute;
+  bottom: -40%;
+  left: 10%;
+  z-index: -1;
 }
 
 /* Адаптивность */

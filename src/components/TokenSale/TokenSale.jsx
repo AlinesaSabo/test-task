@@ -4,10 +4,13 @@ import TokenCard from "../TokenCard/TokenCard";
 import profitIcon from "../../assets/icon/profitIcon.svg";
 import supportIcon from "../../assets/icon/supportIcon.svg";
 import confirmationIcon from "../../assets/icon/confirmationIcon.svg";
+import TokenIMG from "../../assets/image/fon/image 1.png";
+import Star from "../../assets/icon/star/star-img (4).svg";
 
 const TokenSale = () => {
   return (
     <section className={s.section}>
+      <img src={TokenIMG} alt="TokenIMG" className={s.TokenIMG} />
       <div className={s.description}>
         <h5>Our Token</h5>
         <h2>Token seal</h2>
@@ -33,6 +36,7 @@ const TokenSale = () => {
           gradientClass="gradientConfirmation"
         />
       </ul>
+      <img src={Star} className={s.Star} />
     </section>
   );
 };

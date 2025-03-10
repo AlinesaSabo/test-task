@@ -24,20 +24,21 @@
   height: 98px;
   backdrop-filter: blur(100px);
   box-shadow: inset 0 0 6px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid transparent;
   background: linear-gradient(
-      135deg,
-      rgba(41, 46, 75, 0.3) 0%,
-      rgba(37, 40, 58, 0.3) 100%,
-      rgba(41, 46, 75, 0.3) 100%
+      -97.94deg,
+      rgba(41, 46, 75, 0.225) 0%,
+      rgba(37, 40, 58, 0.105) 100%,
+      rgba(41, 46, 75, 0.105) 100%
     ),
     radial-gradient(
-      81.18% 98.69% at 113.3% 120.61%,
-      #3eeee3 0%,
+      65.97% 92.77% at -13.3% -20.61%,
+      rgba(62, 238, 227, 0.5) 0%,
       rgba(62, 69, 238, 0) 100%
     ),
     radial-gradient(
-      645.96% 80.1% at 106.71% 0%,
-      #df1dff 0%,
+      144.76% 629.53% at -6.71% 100%,
+      rgba(223, 29, 255, 0.35) 0%,
       rgba(72, 205, 255, 0) 100%
     );
   font-weight: 600;
