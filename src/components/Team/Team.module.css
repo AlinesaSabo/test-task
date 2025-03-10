@@ -1,6 +1,59 @@
+.section {
+  position: relative;
+  margin-top: 200px;
+}
+
 .team {
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.scrollContainer {
+  max-height: 577px;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 100px;
-  margin-top: 200px;
+  padding: 10px 0;
+}
+
+.cardWrapper {
+  margin-bottom: 100px;
+}
+
+.cardWrapper:last-child {
+  margin-bottom: 0;
+}
+
+.simplebar-scrollbar::before {
+  background: #933ffe;
+  opacity: 0.8;
+}
+
+.simplebar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.money {
+  position: absolute;
+  top: -35%;
+  right: 0;
+}
+.bg {
+  position: absolute;
+  top: -20%;
+  right: 0;
+  z-index: -1;
+}
+
+.bgGradient {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  z-index: -1;
 }

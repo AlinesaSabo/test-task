@@ -3,6 +3,7 @@
   padding: 0 130px;
   max-width: 1440px;
   margin: 0 auto;
+  backdrop-filter: blur(100px);
   background: linear-gradient(
       180deg,
       rgba(41, 46, 75, 0.3) 0%,
