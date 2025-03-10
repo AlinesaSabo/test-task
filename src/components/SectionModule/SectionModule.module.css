@@ -1,4 +1,9 @@
 .section {
+  position: relative;
+  max-width: 1440px;
+}
+
+.container {
   max-width: 1180px;
   margin: 200px auto 0;
 }
@@ -34,4 +39,9 @@
     color: var(--gray-30);
     max-width: 500px;
   }
+}
+
+.bg {
+  position: absolute;
+  top: 20%;
 }
