@@ -6,6 +6,8 @@ import SectionTwo from "../SectionTwo/SectionTwo";
 import ServicesSection from "../ServicesSection/ServicesSection";
 import Team from "../Team/Team";
 import SectionPlatium from "../SectionModule/SectionModule";
+import SectionPeople from "../SectionPeople/SectionPeople";
+import SectionPlans from "../SectionPlans/SectionPlans";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <ServicesSection />
       <Team />
       <SectionPlatium />
+      <SectionPeople />
+      <SectionPlans />
     </div>
   );
 }

@@ -1,0 +1,134 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid #ffffff10;
+  border-radius: 25px;
+  padding: 27px 22px;
+  max-width: 352px;
+  height: 583px;
+  backdrop-filter: blur(10px);
+  text-align: start;
+}
+.title {
+  & h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #f3f3f6;
+    margin-bottom: 12px;
+  }
+  & p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+.details {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #767678;
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+.priceBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.mainPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primery);
+}
+
+.priceUnit {
+  font-size: 12px;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--primery);
+}
+
+.priceMonth {
+  font-size: 12px;
+  line-height: 1.2;
+  color: #e3e3e3;
+}
+
+.oldPrices {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.fullPrice {
+  line-height: 1.5;
+  margin-left: auto;
+}
+
+.fullPrice {
+  line-height: 1.5;
+  color: var(--primery);
+}
+
+.discount {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  border-radius: 12px;
+  padding: 0px 4px;
+  width: 30px;
+  height: 18px;
+  box-shadow: inset 1px 1px 2px 0 #e0e5e6;
+  background: var(--accented-100);
+  font-family: var(--font3);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #1b1b1b;
+}
+
+.oldPrice s {
+  text-decoration: line-through;
+  font-size: 12px;
+  line-height: 1.2;
+  text-decoration: line-through;
+  color: #e3e3e3;
+}
+.benefits {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefitsList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  list-style-type: disc;
+  padding-left: 20px;
+  border-top: 1px solid #b5b5b5;
+  padding-top: 16px;
+  & li {
+    line-height: 1.4;
+    color: #f3f3f6;
+  }
+}
+
+.button {
+  margin-top: auto;
+}
