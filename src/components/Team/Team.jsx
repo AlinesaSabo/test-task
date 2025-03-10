@@ -17,6 +17,11 @@ const teamMembers = [
     image: member1,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo ipsum aliquet turpis elit elit natoque varius eget facilisi. Amet rhoncus",
+    card: {
+      title: "Lörem ipsum treras dekalig. ",
+      description:
+        "Lörem ipsum fulparkerare krollipsum diska didebelt respektive spevis plus krofenatipsum ",
+    },
   },
   {
     id: 2,
@@ -24,6 +29,11 @@ const teamMembers = [
     image: member2,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo ipsum aliquet turpis elit elit natoque varius eget facilisi. Amet rhoncus",
+    card: {
+      title: "Lörem ipsum treras dekalig. ",
+      description:
+        "Lörem ipsum fulparkerare krollipsum diska didebelt respektive spevis plus krofenatipsum ",
+    },
   },
   {
     id: 3,
@@ -31,6 +41,11 @@ const teamMembers = [
     image: member3,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Leo ipsum aliquet turpis elit elit natoque varius eget facilisi. Amet rhoncus",
+    card: {
+      title: "Lörem ipsum treras dekalig. ",
+      description:
+        "Lörem ipsum fulparkerare krollipsum diska didebelt respektive spevis plus krofenatipsum ",
+    },
   },
 ];
 

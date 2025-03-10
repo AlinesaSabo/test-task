@@ -5,6 +5,7 @@ import safe from "../../assets/image/safe/image 501.png";
 import safe2 from "../../assets/image/safe/image 501 (1).png";
 import safe3 from "../../assets/image/safe/image 501 (2).png";
 import bg from "..//../assets/Group 3.png";
+import Ellipse from "../../assets/Ellipse 2.png";
 
 const modules = [
   {
@@ -54,6 +55,7 @@ const SectionModule = () => {
           ))}
         </div>
       </div>
+      <img src={Ellipse} alt="Ellipse" className={s.ellipse} />
       <img src={bg} alt="bg" className={s.bg} />
     </section>
   );
