@@ -1,0 +1,94 @@
+.section {
+  max-width: 1480px;
+  margin: 200px 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 141px 130px;
+  align-items: center;
+  position: relative;
+  backdrop-filter: blur(100px);
+  background: linear-gradient(
+      135deg,
+      rgba(41, 46, 75, 0.5) 0%,
+      rgba(41, 46, 75, 0.5) 100%,
+      rgba(48, 58, 120, 0.5) 100%
+    ),
+    radial-gradient(
+      156.11% 73.01% at -21.25% 44.97%,
+      #3da5f5 0%,
+      rgba(62, 69, 238, 0) 100%
+    ),
+    radial-gradient(
+      77.75% 73.99% at 100% 106.39%,
+      #df1dff 0%,
+      rgba(72, 205, 255, 0) 100%
+    );
+}
+.title {
+  max-width: 380px;
+  & h2 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.3;
+    color: #e9eef4;
+    margin-bottom: 28px;
+  }
+  & p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    color: var(--gray-40);
+  }
+}
+
+.videoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 780px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.playButton {
+  position: absolute;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playButton img {
+  width: 100%;
+  transition: transform 0.3s ease;
+  z-index: 4;
+}
+
+.playButton:hover img {
+  transform: scale(1.1);
+}
+
+.thumbnail {
+  z-index: 2;
+}
+
+.bitcoin {
+  position: absolute;
+  z-index: 3;
+  bottom: 12%;
+  left: 35%;
+}
+
+.etherium {
+  position: absolute;
+  top: 0;
+  right: 5%;
+}

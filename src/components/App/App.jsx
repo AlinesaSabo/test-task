@@ -8,6 +8,7 @@ import Team from "../Team/Team";
 import SectionPlatium from "../SectionModule/SectionModule";
 import SectionPeople from "../SectionPeople/SectionPeople";
 import SectionPlans from "../SectionPlans/SectionPlans";
+import VideoPreview from "../VideoPreview/VideoPreview";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SectionPlatium />
       <SectionPeople />
       <SectionPlans />
+      <VideoPreview videoUrl="https://www.youtube.com/embed/VIDEO_ID" />
     </div>
   );
 }

@@ -47,6 +47,7 @@
 }
 
 .ellipse {
+  max-width: 100%;
   position: absolute;
-  top: -18%;
+  bottom: 20%;
 }
