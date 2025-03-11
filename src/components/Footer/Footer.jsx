@@ -46,8 +46,8 @@ const Footer = () => {
               <a href="#blog">Blog</a>
             </li>
           </ul>
+          <p className={s.privacy}>Privacy Policy and Terms of Service</p>
         </div>
-        <p className={s.privacy}>Privacy Policy and Terms of Service</p>
       </div>
       <img src={bgGradient} alt="bgGradient" className={s.bgGradient} />
     </footer>

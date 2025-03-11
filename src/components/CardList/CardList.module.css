@@ -47,7 +47,6 @@
   text-align: center;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
   .cardList {
     max-width: 100%;
