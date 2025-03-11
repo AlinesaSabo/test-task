@@ -1,10 +1,7 @@
 .section {
   position: relative;
-  max-width: 1180px;
+  max-width: 1440px;
   margin: 200px auto 0;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 
 .description {
@@ -46,6 +43,7 @@
   position: absolute;
   top: -130px;
   z-index: -1;
+  width: 100%;
 }
 
 .cardList > li:nth-child(1) {
@@ -98,15 +96,96 @@
       rgba(41, 46, 75, 0.105) 74.08%
     ),
     radial-gradient(
-        30.88% 36.01% at 103.42% -8.18%,
-        rgba(62, 238, 227, 0.5) 0%,
-        rgba(62, 69, 238, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+      30.88% 36.01% at 103.42% -8.18%,
+      rgba(62, 238, 227, 0.5) 0%,
+      rgba(62, 69, 238, 0) 100%
+    ),
     radial-gradient(
-        65.64% 73.5% at 55.82% 36.11%,
-        rgba(223, 29, 255, 0.25) 0%,
-        rgba(72, 205, 255, 0) 100%
-      )
-      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      65.64% 73.5% at 55.82% 36.11%,
+      rgba(223, 29, 255, 0.25) 0%,
+      rgba(72, 205, 255, 0) 100%
+    );
+}
+
+@media (max-width: 1280px) {
+  .description h2 {
+    font-size: 42px;
+  }
+
+  .cardList {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .description {
+    margin-bottom: 60px;
+  }
+
+  .cardList {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 50px;
+  }
+
+  .cardList > li:nth-child(2) {
+    transform: scale(1);
+  }
+
+  .description h2 {
+    font-size: 38px;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+
+  .cardList {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description h2 {
+    font-size: 32px;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  .cardList {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .section {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .description {
+    margin-bottom: 40px;
+  }
+
+  .description h2 {
+    font-size: 28px;
+  }
+
+  .description p {
+    font-size: 12px;
+  }
+
+  .background {
+    top: -50px;
+  }
+
+  .cardList {
+    gap: 15px;
+  }
 }

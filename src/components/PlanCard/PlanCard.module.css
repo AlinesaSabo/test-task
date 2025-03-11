@@ -47,7 +47,6 @@
 .mainPrice {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 14px;
 }
 
@@ -131,4 +130,121 @@
 
 .button {
   margin-top: auto;
+}
+
+@media (max-width: 1280px) {
+  .price {
+    font-size: 18px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .fullPrice {
+    font-size: 12px;
+  }
+
+  .details {
+    font-size: 12px;
+  }
+}
+
+/* 1024px */
+@media (max-width: 1024px) {
+  .card {
+    max-width: 450px;
+    height: auto;
+  }
+
+  .price {
+    font-size: 25px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .fullPrice {
+    font-size: 20px;
+  }
+
+  .details {
+    font-size: 20px;
+  }
+
+  .oldPrice s {
+    font-size: 15px;
+  }
+
+  .benefitsList {
+    gap: 10px;
+    & li {
+      font-size: 15px;
+    }
+  }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  .card {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .details {
+    font-size: 18px;
+  }
+
+  .fullPrice {
+    font-size: 16px;
+  }
+
+  .oldPrice s {
+    font-size: 14px;
+  }
+
+  .benefitsList {
+    gap: 5px;
+    & li {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .details {
+    font-size: 10px;
+  }
+
+  .fullPrice {
+    font-size: 12px;
+  }
+
+  .oldPrice s {
+    font-size: 10px;
+  }
+
+  .priceMonth {
+    font-size: 8px;
+  }
+
+  .priceUnit {
+    font-size: 10px;
+  }
+
+  .pricing {
+    gap: 10px;
+  }
+
+  .benefitsList {
+    gap: 10px;
+    & li {
+      font-size: 12px;
+    }
+  }
 }

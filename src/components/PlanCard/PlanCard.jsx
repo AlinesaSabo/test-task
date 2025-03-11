@@ -23,16 +23,14 @@ const PlanCard = ({
         </div>
 
         <div className={s.pricing}>
-          <div className={s.priceBlock}>
-            <div className={s.mainPrice}>
-              <span className={s.price}>
-                3 329<span className={s.priceUnit}>/month</span>
-              </span>
+          <div className={s.mainPrice}>
+            <span className={s.price}>
+              3 329<span className={s.priceUnit}>/month</span>
+            </span>
 
-              <span className={s.priceMonth}>
-                <s>3 329</s> for 24 months
-              </span>
-            </div>
+            <span className={s.priceMonth}>
+              <s>3 329</s> for 24 months
+            </span>
           </div>
 
           <div className={s.oldPrices}>
