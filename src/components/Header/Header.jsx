@@ -1,16 +1,16 @@
 import React from "react";
-import styles from "./Header.module.css";
+import s from "./Header.module.css";
 import Button from "../Button/Button";
 import Logo from "../../assets/Logo.svg";
 
 const Header = () => {
   return (
-    <div className={styles.header}>
-      <nav className={styles.navbar}>
-        <div className={styles.logo}>
-          <img src={Logo} className={styles.icon} />
+    <div className={s.header}>
+      <nav className={s.navbar}>
+        <div className={s.logo}>
+          <img src={Logo} className={s.icon} />
         </div>
-        <ul className={styles.navLinks}>
+        <ul className={s.navLinks}>
           <li>
             <a href="#about">About</a>
           </li>
@@ -30,7 +30,7 @@ const Header = () => {
             <a href="#blog">Blog</a>
           </li>
         </ul>
-        <Button variant="secondary">Get in Touch</Button>
+        <Button className={s.button}>Get in Touch</Button>
       </nav>
     </div>
   );

@@ -7,7 +7,7 @@ import Star2 from "../../assets/icon/star/star-img (6).svg";
 
 const SectionTwo = () => {
   return (
-    <section className={s.sectionTwo}>
+    <section className={s.sectionTwo} id="service">
       <div className={s.container}>
         <div className={s.sectionText}>
           <h2>Lörem ipsum häsat promotiv sedan depatologi tenes.</h2>

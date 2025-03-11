@@ -63,3 +63,9 @@
   z-index: -1;
   transform: rotate(-35deg);
 }
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 720px) {
+}

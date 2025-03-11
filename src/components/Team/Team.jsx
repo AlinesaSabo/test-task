@@ -51,7 +51,7 @@ const teamMembers = [
 
 const Team = () => {
   return (
-    <section className={s.section}>
+    <section className={s.section} id="team">
       <div className={s.team}>
         <SimpleBar className={s.scrollContainer}>
           {teamMembers.map((member) => (

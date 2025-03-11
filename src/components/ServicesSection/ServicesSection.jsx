@@ -11,7 +11,7 @@ const ServiceSection = () => {
   }, []);
 
   return (
-    <section className={s.serviceSection}>
+    <section className={s.serviceSection} id="about">
       <ul className={s.grid}>
         <li className={`${s.listItem} ${s.headerCard}`}>
           <h4>

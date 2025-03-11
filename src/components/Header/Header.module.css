@@ -36,3 +36,40 @@
 .icon {
   height: 48px;
 }
+
+@media (max-width: 1280px) {
+  .navLinks {
+    gap: 15px;
+    & a {
+      font-weight: 500;
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .icon {
+    height: 35px;
+  }
+  .button {
+    display: none;
+  }
+
+  .header {
+    padding: 26px 50px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header {
+    padding: 26px 30px;
+  }
+
+  .navLinks {
+    gap: 5px;
+    & a {
+      font-weight: 500;
+      font-size: 10px;
+    }
+  }
+}

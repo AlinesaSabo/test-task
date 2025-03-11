@@ -9,7 +9,7 @@ import Star from "../../assets/icon/star/star-img (4).svg";
 
 const TokenSale = () => {
   return (
-    <section className={s.section}>
+    <section className={s.section} id="token-sale">
       <img src={TokenIMG} alt="TokenIMG" className={s.TokenIMG} />
       <div className={s.description}>
         <h5>Our Token</h5>
