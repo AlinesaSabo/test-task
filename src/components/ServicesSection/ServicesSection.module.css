@@ -77,7 +77,13 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
+  .listItem {
+    padding: 24px 15px;
+    max-width: 350px;
+    height: 300px;
+  }
+
   .listItem h2 {
     font-size: 35px;
   }

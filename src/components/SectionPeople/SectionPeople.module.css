@@ -155,6 +155,7 @@
 
   .content {
     width: 100%;
+    margin: 0;
     padding: 30px;
     border-left: none;
     border-top: 1px solid rgba(181, 181, 181, 0.15);
@@ -175,7 +176,7 @@
   }
 
   .Etherium {
-    bottom: 10%;
+    bottom: 5%;
     left: 20%;
   }
 }
@@ -216,12 +217,12 @@
   }
 
   .Etherium {
-    bottom: 10%;
+    bottom: 1%;
     left: 25%;
   }
 
   .LiteCoin {
-    bottom: 5%;
+    bottom: 40%;
     right: 0;
   }
 }
