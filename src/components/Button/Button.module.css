@@ -13,52 +13,18 @@
   outline: none;
 }
 
-.button:active {
-  background: linear-gradient(90deg, #0f9edc, #702ecc);
+.button:hover {
+  background: linear-gradient(227deg, #18c8ff 0%, #933ffe 100%);
   transform: scale(0.95);
 }
 
 .button:focus {
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.5);
+  background: linear-gradient(225deg, #18c8ff 0%, #933ffe 100%);
 }
 
 .button:disabled {
-  background: #555;
+  background: var(--gray-60);
   cursor: not-allowed;
   opacity: 0.6;
 }
-
-/* @media (max-width: 1280px) {
-  .button {
-    padding: 8px 15px;
-    font-size: 14px;
-    font-weight: 500;
-  }
-}
-
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 720px) {
-  .button {
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: 400;
-  }
-}
-
-@media (max-width: 480px) {
-  .button {
-    padding: 10px 15px;
-    font-size: 12px;
-    font-weight: 400;
-  }
-}
-
-@media (max-width: 380px) {
-  .button {
-    padding: 10px 15px;
-    font-size: 12px;
-    font-weight: 400;
-  }
-} */

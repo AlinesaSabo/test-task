@@ -1,26 +1,33 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import s from "./CardList.module.css";
 
 const CardList = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const section = document.querySelector(`.${s.cardList}`);
-      if (section) {
-        const rect = section.getBoundingClientRect();
-        if (rect.top < window.innerHeight * 0.75) {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
           setIsVisible(true);
+          observer.unobserve(entry.target);
         }
-      }
-    };
+      },
+      { threshold: 0.5 }
+    );
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
   }, []);
 
   return (
-    <div className={`${s.cardList} ${isVisible ? s.visible : ""}`}>
+    <div
+      ref={sectionRef}
+      className={`${s.cardList} ${isVisible ? s.visible : ""}`}
+    >
       {[1, 2, 3].map((item) => (
         <div className={s.card} key={item}>
           Lorem ipsum dorade bakig till geosylig postmodem.

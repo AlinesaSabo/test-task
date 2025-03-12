@@ -17,7 +17,10 @@ const ServiceSection = () => {
           <h4>
             Our <br /> Services
           </h4>
-          <h2>Our Services for You</h2>
+          <h2>
+            Our Services
+            <br /> for You
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore
