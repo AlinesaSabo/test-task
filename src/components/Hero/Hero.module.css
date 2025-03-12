@@ -65,7 +65,111 @@
 }
 
 @media (max-width: 1280px) {
+  .hero {
+    height: 750px;
+  }
+
+  .title {
+    font-size: 72px;
+  }
+
+  .description {
+    max-width: 550px;
+    font-size: 14px;
+  }
+
+  .tagline {
+    top: 210px;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .bitcoinBG {
+    width: 500px;
+    height: 600px;
+  }
 }
 
-@media (max-width: 720px) {
+/* ======== 📱 1024px (Планшеты) ======== */
+@media (max-width: 1024px) {
+  .hero {
+    height: 650px;
+  }
+
+  .title {
+    font-size: 60px;
+  }
+
+  .description {
+    max-width: 500px;
+    font-size: 14px;
+  }
+
+  .tagline {
+    top: 190px;
+    font-size: 16px;
+    width: 180px;
+    height: 45px;
+  }
+
+  .bitcoinBG {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+/* ======== 📱 768px (Маленькие планшеты) ======== */
+@media (max-width: 768px) {
+  .hero {
+    height: 550px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    max-width: 400px;
+    font-size: 14px;
+  }
+
+  .tagline {
+    top: 180px;
+    font-size: 14px;
+    width: 160px;
+    height: 40px;
+  }
+
+  .bitcoinBG {
+    width: 350px;
+    height: 450px;
+  }
+}
+
+/* ======== 📱 480px (Мобильные) ======== */
+@media (max-width: 480px) {
+  .hero {
+    height: 450px;
+  }
+  .title {
+    font-size: 35px;
+  }
+
+  .description {
+    max-width: 300px;
+    font-size: 12px;
+  }
+
+  .tagline {
+    top: 160px;
+    font-size: 12px;
+    width: 140px;
+    height: 35px;
+  }
+
+  .bitcoinBG {
+    width: 280px;
+    height: 380px;
+  }
 }

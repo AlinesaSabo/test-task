@@ -113,3 +113,73 @@
 .avatar:nth-child(6) {
   z-index: 0;
 }
+
+@media (max-width: 1280px) {
+  .card {
+    width: 180px;
+    height: 230px;
+    padding: 50px 15px;
+  }
+
+  .number {
+    font-size: 28px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .avatar {
+    width: 30px;
+    height: 42px;
+  }
+
+  .blueCard {
+    top: 65%;
+    right: 21%;
+  }
+
+  .pinkCard {
+    top: 40%;
+    left: 80%;
+  }
+}
+
+/* ======= 📱 1024px (Планшеты) ======= */
+@media (max-width: 1024px) {
+  .card {
+    width: 140px;
+    height: 170px;
+    padding: 30px 10px;
+  }
+
+  .blueCard {
+    top: 70%;
+    right: 18%;
+  }
+
+  .pinkCard {
+    top: 40%;
+    left: 82%;
+  }
+
+  .number {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+
+  .avatar {
+    width: 25px;
+    height: 36px;
+  }
+}
+
+/* ======= 📱 768px (Маленькие планшеты) ======= */
+@media (max-width: 768px) {
+  .card {
+    display: none;
+  }
+}

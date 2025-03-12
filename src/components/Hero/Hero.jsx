@@ -29,7 +29,7 @@ const Hero = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi.
         </p>
-        <Button>Get Started</Button>
+        <Button className={s.button}>Get Started</Button>
       </div>
       <div className={s.cardContainer}>
         <CardHero

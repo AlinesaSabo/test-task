@@ -4,7 +4,6 @@
   height: 100%;
   top: 0;
   left: 0;
-  overflow: hidden;
   z-index: -1;
 }
 
@@ -89,4 +88,159 @@
   position: absolute;
   top: 55px;
   left: 226px;
+}
+
+@media (max-width: 1280px) {
+  .bitcoinBG {
+    width: 500px;
+    bottom: -70px;
+  }
+
+  .StarL {
+    top: 150px;
+    left: 40px;
+  }
+
+  .StarM {
+    bottom: 130px;
+    right: 180px;
+  }
+
+  .StarxS {
+    bottom: 180px;
+    left: 450px;
+  }
+
+  .StarS {
+    top: 180px;
+    right: 90px;
+  }
+
+  .liteCoin {
+    bottom: 300px;
+  }
+
+  .etherium {
+    right: 280px;
+  }
+
+  .monero {
+    left: 190px;
+  }
+}
+
+/* ======= 📱 1024px (Планшеты) ======= */
+@media (max-width: 1024px) {
+  .bitcoinBG {
+    width: 400px;
+    bottom: -60px;
+  }
+
+  .StarL {
+    top: 140px;
+    left: 30px;
+  }
+
+  .StarM {
+    bottom: 110px;
+    right: 160px;
+  }
+
+  .StarxS {
+    bottom: 160px;
+    left: 380px;
+  }
+
+  .StarS {
+    top: 160px;
+    right: 80px;
+  }
+
+  .liteCoin {
+    bottom: 270px;
+  }
+
+  .etherium {
+    right: 240px;
+  }
+
+  .monero {
+    left: 170px;
+  }
+}
+
+/* ======= 📱 768px (Маленькие планшеты) ======= */
+@media (max-width: 768px) {
+  .bitcoinBG {
+    width: 300px;
+    bottom: -50px;
+  }
+
+  .StarL {
+    top: 120px;
+    left: 20px;
+  }
+
+  .StarM {
+    bottom: 90px;
+    right: 140px;
+  }
+
+  .StarxS {
+    bottom: 140px;
+    left: 300px;
+  }
+
+  .StarS {
+    top: 140px;
+    right: 60px;
+  }
+
+  .liteCoin {
+    bottom: 230px;
+  }
+
+  .etherium {
+    display: none;
+  }
+
+  .monero {
+    left: 140px;
+  }
+}
+
+/* ======= 📱 480px (Мобильные) ======= */
+@media (max-width: 480px) {
+  .bitcoinBG {
+    width: 200px;
+    bottom: -40px;
+  }
+
+  .StarL {
+    top: 100px;
+    left: 10px;
+  }
+
+  .StarM {
+    bottom: 70px;
+    right: 100px;
+  }
+
+  .StarxS {
+    bottom: 120px;
+    left: 200px;
+  }
+
+  .StarS {
+    top: 120px;
+    right: 40px;
+  }
+
+  .liteCoin {
+    bottom: 200px;
+  }
+
+  .monero {
+    left: 100px;
+  }
 }
