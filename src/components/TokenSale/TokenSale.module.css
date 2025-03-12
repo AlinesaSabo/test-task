@@ -7,7 +7,7 @@
   position: relative;
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .description {
@@ -68,13 +68,12 @@
 
   .TokenIMG {
     top: -50px;
-    right: -50px;
-    max-width: 90%;
+    right: 5%;
   }
 
   .Star {
     bottom: -60px;
-    right: -10px;
+    left: 10%;
   }
 }
 
@@ -101,7 +100,7 @@
 
   .TokenIMG {
     top: -40px;
-    right: -40px;
+    right: 5%;
     max-width: 85%;
   }
 
@@ -132,11 +131,12 @@
   }
 
   .TokenIMG {
+    right: 2%;
     width: 150px;
   }
 
   .Star {
-    bottom: -30px;
+    bottom: -10%;
   }
 }
 
@@ -162,6 +162,5 @@
 
   .TokenIMG {
     top: -10%;
-    width: 150px;
   }
 }
