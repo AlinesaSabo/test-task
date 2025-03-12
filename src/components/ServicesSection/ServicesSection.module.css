@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 768px) {
+  .serviceSection {
+    margin: 200px 0;
+  }
+
   .grid {
     grid-template-columns: repeat(1, 1fr);
   }
