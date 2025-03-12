@@ -13,7 +13,13 @@ const CardTeam = ({ title, image, description, id, card }) => {
         <Button className={s.button}>Get Started</Button>
       </div>
       <div className={s.img}>
-        <img src={image} alt={id} width="681px" height="494px" />
+        <img
+          src={image}
+          alt={id}
+          width="681px"
+          height="494px"
+          className={s.image}
+        />
         <img src={bg} alt="bg" className={s.bg} />
       </div>
       <div className={s.cardInfo}>
