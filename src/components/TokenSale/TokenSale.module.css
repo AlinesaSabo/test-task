@@ -55,3 +55,113 @@
   bottom: -70px;
   right: -12px;
 }
+
+@media (max-width: 1280px) {
+  .description {
+    width: 450px;
+  }
+
+  .cards {
+    gap: 15px;
+    margin-top: 80px;
+  }
+
+  .TokenIMG {
+    top: -50px;
+    right: -50px;
+    max-width: 90%;
+  }
+
+  .Star {
+    bottom: -60px;
+    right: -10px;
+  }
+}
+
+/* ======= 📱 1024px (Планшеты) ======= */
+@media (max-width: 1024px) {
+  .description {
+    width: 400px;
+  }
+
+  .description h2 {
+    font-size: 42px;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+  }
+
+  .TokenIMG {
+    top: -40px;
+    right: -40px;
+    max-width: 85%;
+  }
+
+  .Star {
+    bottom: -50px;
+    right: -5px;
+  }
+}
+
+/* ======= 📱 768px (Маленькие планшеты) ======= */
+@media (max-width: 768px) {
+  .description {
+    width: 350px;
+  }
+
+  .description h2 {
+    font-size: 38px;
+  }
+
+  .description p {
+    font-size: 14px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .TokenIMG {
+    width: 150px;
+  }
+
+  .Star {
+    bottom: -30px;
+  }
+}
+
+/* ======= 📱 480px (Мобильные) ======= */
+@media (max-width: 480px) {
+  .description {
+    width: 100%;
+  }
+
+  .description h2 {
+    font-size: 32px;
+  }
+
+  .description p {
+    font-size: 12px;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .TokenIMG {
+    top: -10%;
+    width: 150px;
+  }
+}

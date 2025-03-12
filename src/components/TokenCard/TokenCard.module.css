@@ -96,3 +96,79 @@
   text-align: center;
   color: #e8e8e8;
 }
+
+@media (max-width: 1280px) {
+  .card {
+    height: 310px;
+  }
+
+  .content {
+    padding: 35px 30px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+/* ======= 📱 1024px (Планшеты) ======= */
+@media (max-width: 1024px) {
+  .card {
+    height: 280px;
+  }
+
+  .content {
+    padding: 30px 25px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+/* ======= 📱 768px (Маленькие планшеты) ======= */
+@media (max-width: 768px) {
+  .card {
+    height: 250px;
+  }
+
+  .content {
+    padding: 25px 20px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+}
+
+/* ======= 📱 480px (Мобильные) ======= */
+@media (max-width: 480px) {
+  .card {
+    height: 230px;
+    width: 100%;
+  }
+
+  .content {
+    padding: 20px 15px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+}
