@@ -48,6 +48,78 @@
 
 .ellipse {
   max-width: 100%;
+  max-height: 100%;
   position: absolute;
   bottom: 20%;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    max-width: 960px;
+  }
+  .description h2 {
+    font-size: 42px;
+  }
+  .description p {
+    font-size: 18px;
+    max-width: 450px;
+  }
+}
+
+/* ====== 📱 1024px (планшеты) ====== */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 800px;
+  }
+  .description {
+    margin-bottom: 60px;
+  }
+  .description h2 {
+    font-size: 38px;
+  }
+  .description p {
+    font-size: 16px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+    padding: 0 15px;
+  }
+  .description {
+    margin-bottom: 40px;
+  }
+  .description h2 {
+    font-size: 32px;
+  }
+  .description p {
+    font-size: 14px;
+    max-width: 350px;
+  }
+  .bg {
+    width: 100%;
+    top: 60%;
+  }
+  .ellipse {
+    top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .description {
+    margin-bottom: 30px;
+  }
+  .description h2 {
+    font-size: 28px;
+  }
+  .description p {
+    font-size: 13px;
+    max-width: 100%;
+  }
 }
