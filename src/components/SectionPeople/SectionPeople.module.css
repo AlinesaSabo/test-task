@@ -120,3 +120,155 @@
   bottom: 0%;
   right: 15%;
 }
+
+@media (max-width: 1280px) {
+  .container {
+    padding: 40px;
+  }
+
+  .sidebar {
+    padding: 40px;
+  }
+
+  .content {
+    padding: 40px;
+  }
+
+  .menuItem {
+    font-size: 20px;
+  }
+}
+
+/* ----- Планшеты 1024px ----- */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 40px 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 50%;
+    padding: 20px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 30px;
+    border-left: none;
+    border-top: 1px solid rgba(181, 181, 181, 0.15);
+  }
+
+  .menuItem {
+    font-size: 18px;
+  }
+
+  .avatar {
+    width: 28px;
+    height: 48px;
+  }
+
+  .LiteCoin {
+    bottom: 35%;
+    right: 0;
+  }
+
+  .Etherium {
+    bottom: 10%;
+    left: 20%;
+  }
+}
+
+/* ----- Мобильные 768px ----- */
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  .menuItem {
+    font-size: 18px;
+    gap: 10px;
+  }
+
+  .content h3 {
+    font-size: 28px;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .avatar {
+    width: 25px;
+    height: 40px;
+  }
+
+  .star1,
+  .star2 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .Etherium {
+    bottom: 10%;
+    left: 25%;
+  }
+
+  .LiteCoin {
+    bottom: 5%;
+    right: 0;
+  }
+}
+
+/* ----- Смартфоны 480px ----- */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+
+  .sidebar {
+    padding: 20px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .menuItem {
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .content h3 {
+    font-size: 18px;
+  }
+
+  .content p {
+    font-size: 10px;
+  }
+
+  .avatar {
+    width: 22px;
+    height: 35px;
+  }
+
+  .star1,
+  .star2 {
+    width: 15px;
+    height: 15px;
+  }
+
+  .Etherium {
+    display: none;
+  }
+
+  .LiteCoin {
+    display: none;
+  }
+}
