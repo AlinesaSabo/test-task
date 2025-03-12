@@ -43,7 +43,7 @@
   position: absolute;
   top: -130px;
   z-index: -1;
-  width: 100%;
+  max-width: 100%;
 }
 
 .cardList > li:nth-child(1) {

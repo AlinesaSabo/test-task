@@ -1,5 +1,6 @@
 .section {
   position: relative;
+  max-width: 1440px;
   margin-top: 200px;
 }
 
@@ -48,11 +49,13 @@
   position: absolute;
   top: -20%;
   right: 0;
+  max-width: 100%;
   z-index: -1;
 }
 
 .bgGradient {
   position: absolute;
+  max-width: 100%;
   top: 40%;
   right: 0;
   z-index: -1;
@@ -67,14 +70,6 @@
     top: -30%;
     max-width: 90%;
   }
-
-  .bg {
-    top: -15%;
-  }
-
-  .bgGradient {
-    top: 35%;
-  }
 }
 
 /* ====== 📱 1024px (планшеты) ====== */
@@ -86,14 +81,6 @@
   .money {
     top: -40%;
     max-width: 80%;
-  }
-
-  .bg {
-    top: -10%;
-  }
-
-  .bgGradient {
-    top: 20%;
   }
 }
 
@@ -107,16 +94,28 @@
   }
 
   .bg {
-    top: -5%;
+    top: 10%;
+    right: 0;
   }
 
   .bgGradient {
-    top: 25%;
+    top: 40%;
+    right: 0;
   }
 }
 
 @media (max-width: 480px) {
   .title {
     font-size: 20px;
+  }
+
+  .bg {
+    top: 50%;
+    right: 0;
+  }
+
+  .bgGradient {
+    top: 60%;
+    right: 0;
   }
 }

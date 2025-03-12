@@ -55,6 +55,12 @@
   box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 1280px) {
+  .listItem h2 {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 1024px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -64,5 +70,11 @@
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 380px) {
+  .listItem h2 {
+    font-size: 35px;
   }
 }
