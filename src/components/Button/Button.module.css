@@ -14,18 +14,15 @@
   outline: none;
 }
 
-/* Pressed (нажатие) */
 .button:active {
   background: linear-gradient(90deg, #0f9edc, #702ecc);
   transform: scale(0.95);
 }
 
-/* Focus (фокусировка) */
 .button:focus {
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
 }
 
-/* Disabled (неактивное состояние) */
 .button:disabled {
   background: #555;
   cursor: not-allowed;
@@ -40,10 +37,29 @@
   }
 }
 
+@media (max-width: 1024px) {
+}
+
 @media (max-width: 720px) {
   .button {
     padding: 10px 15px;
     font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    padding: 10px 15px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 380px) {
+  .button {
+    padding: 10px 15px;
+    font-size: 12px;
     font-weight: 400;
   }
 }

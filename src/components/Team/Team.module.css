@@ -57,3 +57,66 @@
   right: 0;
   z-index: -1;
 }
+
+@media (max-width: 1280px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .money {
+    top: -30%;
+    max-width: 90%;
+  }
+
+  .bg {
+    top: -15%;
+  }
+
+  .bgGradient {
+    top: 35%;
+  }
+}
+
+/* ====== 📱 1024px (планшеты) ====== */
+@media (max-width: 1024px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .money {
+    top: -40%;
+    max-width: 80%;
+  }
+
+  .bg {
+    top: -10%;
+  }
+
+  .bgGradient {
+    top: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .money {
+    display: none;
+  }
+
+  .bg {
+    top: -5%;
+  }
+
+  .bgGradient {
+    top: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 20px;
+  }
+}

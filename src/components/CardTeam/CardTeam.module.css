@@ -63,7 +63,7 @@
 }
 
 .button {
-  padding: 20px 48px;
+  padding: 20px 100px;
   max-width: 291px;
 }
 
@@ -114,5 +114,173 @@
   }
   & p {
     line-height: 1.4;
+  }
+}
+
+@media (max-width: 1280px) {
+  .card {
+    padding: 0 100px;
+    height: 500px;
+  }
+
+  .description {
+    width: 450px;
+  }
+
+  .description h2 {
+    font-size: 42px;
+  }
+
+  .img {
+    right: 0;
+  }
+
+  .bg {
+    top: -12%;
+  }
+
+  .cardInfo {
+    right: 2%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .card {
+    align-items: center;
+  }
+
+  .cardInfo {
+    width: 200px;
+    padding: 10px 20px;
+    & h5 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    & p {
+      font-size: 12px;
+    }
+  }
+
+  .description {
+    width: 50%;
+  }
+
+  .description h2 {
+    font-size: 30px;
+  }
+
+  .description p {
+    font-size: 12px;
+  }
+
+  .img {
+    width: 80%;
+    & img {
+      max-height: 100%;
+    }
+  }
+
+  .bg {
+    top: -8%;
+  }
+
+  .cardInfo {
+    bottom: 5%;
+    right: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 0 40px;
+  }
+
+  .button {
+    padding: 20px 30px;
+    max-width: 70%;
+    font-size: 12px;
+  }
+
+  .description {
+    width: 50%;
+    z-index: 5;
+  }
+
+  .description h2 {
+    font-size: 20px;
+  }
+  .description p {
+    font-size: 10px;
+  }
+
+  .description h5 {
+    font-size: 14px;
+  }
+
+  .img {
+    left: 15%;
+    width: 70%;
+  }
+
+  .bg {
+    top: -5%;
+  }
+
+  .cardInfo {
+    bottom: 2%;
+    right: 2%;
+    width: 160px;
+    height: 150px;
+    & h5 {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    & p {
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .description {
+    height: 50%;
+    width: 60%;
+  }
+
+  .description h2 {
+    font-size: 26px;
+  }
+
+  .img {
+    left: -10%;
+  }
+
+  .bg {
+    display: none;
+  }
+
+  .cardInfo {
+    bottom: 1%;
+    right: 1%;
+    width: 140px;
+    padding: 15px 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .img {
+    left: -30%;
+  }
+
+  .button {
+    padding: 20px 20px;
+    max-width: 70%;
+    font-size: 10px;
   }
 }
